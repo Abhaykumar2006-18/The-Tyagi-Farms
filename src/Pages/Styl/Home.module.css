@@ -1,0 +1,37 @@
+.main{
+    
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: background 10s infinite;
+    background-size: cover;
+    
+    
+}
+
+
+
+@media (max-width: 900px){
+    .main{
+       animation: slides 10s infinite;
+       inset: 0;
+    }
+}
+
+@keyframes slides{
+    0%{
+        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo7CHG2rDr93q18jioEc9C1hXKVQsB_RmP8g&s');
+    }
+    40%{
+        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOPcld1i3gERHHwRIs-MXyO_YIzTUfbYl9Mw&s');
+    }
+    60%{
+        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sWM4Ih10ujX1VpNO9s8UijTZyT2FhDaGjA&s');
+    }
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)),url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmgpVu27RNmpdcotWzA2-g4pQJxUIbZriwBUWdGFkxg&s');
+    }
+}
