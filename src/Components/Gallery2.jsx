@@ -67,7 +67,7 @@ const Gallery2 = () => {
         </div>
 
         {/* 🔥 GRID LAYOUT */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 ">
 
           {/* BIG VIDEO */}
           <div className="reveal lg:col-span-7 relative rounded-[30px] overflow-hidden shadow-xl bg-black h-[450px] md:h-[560px]">
@@ -82,11 +82,11 @@ const Gallery2 = () => {
             />
 
             <div className="absolute top-6 left-6 bg-white/80 backdrop-blur-md px-5 py-2 rounded-full">
-              <p className="text-[#1B1B1B] text-sm font-semibold">
-                Featured Experience
-              </p>
+                  <p className="text-[#1B1B1B] text-sm font-semibold">
+                     Featured Experience
+                  </p>
+              </div>
             </div>
-          </div>
 
           {/* RIGHT SIDE IMAGES */}
           <div className="lg:col-span-5 grid grid-cols-1 gap-6">
