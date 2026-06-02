@@ -19,7 +19,8 @@ const App = () => {
     <>
     
     
-    <div className='min-h-[100vh] w-[100%]'>
+    <div className='min-h-[100vh] w-[100%] '>
+
       
        <Routes>
           <Route path='/' element={<Home/>}/>

@@ -8,6 +8,10 @@ import Gallery2 from '../Components/Gallery2'
 import Booking from './Booking'
 import BookingHome from '../Components/BookingHome'
 import v2 from '../assets/v2.mp4'
+import Review from '../Components/Review'
+
+
+
 const Home = () => {
   return (
     <>
@@ -30,6 +34,8 @@ const Home = () => {
          
         <Gallery2/>
         <BookingHome/>
+        <Review/>
+        
         <Map/>
         </>
   )
