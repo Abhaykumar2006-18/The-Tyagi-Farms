@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaQuoteLeft } from "react-icons/fa6";
+import { motion } from "motion/react"
 
 
 const reviews = [
@@ -58,12 +59,12 @@ const Review = () => {
        {reviews.map((review , idx) =>(
             
        
-            <div className='min-h-[250px] bg-gray-200 rounded-2xl overflow-hidden'>
+            <motion.div key={idx} initial={{opacity:0,y:60}} whileInView={{opacity:1,y:0}} transition={{duration:0.6,delay:idx*0.15}} viewport={{once:true,amount:0.3}} whileHover={{y:-10}} className='min-h-[250px] bg-gray-200 shadow-2xl border border-gray-200 rounded-2xl overflow-hidden'>
 
 
                  
                      <div className='min-h-[30%]  flex items-center px-5 rounded-t-2xl '>
-                     <div className='w-[50%] h-[60px] w-[60px] overflow-hidden rounded-full mt-2'> <img src={review.photo} alt="" /></div>
+                     <div className=' h-[60px] w-[60px] overflow-hidden rounded-full mt-2'> <img src={review.photo} alt="" /></div>
                      <div className='flex flex-col leading-2'>
                         <h1 className='mx-2 text-xl font-Cinzel font-semibold'>{review.name}</h1>
                         <h1 className='mx-3 text-[13px] '>{review.days}</h1>
@@ -87,7 +88,7 @@ const Review = () => {
 
 
 
-            </div>
+            </motion.div>
            ))}
             
         {/*card end */}
