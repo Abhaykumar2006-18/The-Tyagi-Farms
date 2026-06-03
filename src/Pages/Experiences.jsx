@@ -98,7 +98,7 @@ const Experiences = () => {
         <div className="relative z-10">
           <div className="inline-flex items-center gap-3 bg-white/70 backdrop-blur-md border border-[#b89b5e]/30 px-5 py-2 rounded-full shadow-sm mb-6">
             <span className="h-2 w-2 rounded-full bg-[#b89b5e]"></span>
-            <p className="uppercase tracking-[4px] text-xs md:text-xl text-[#8b6f35] font-Grenze">
+            <p className="uppercase tracking-[4px] text-xs md:text-xl text-[#8b6f35] font-Cinzel">
               Tyagi Farms Experiences
             </p>
           </div>
@@ -158,15 +158,15 @@ const Experiences = () => {
         <div className="absolute inset-0 bg-[linear-gradient(rgba(184,155,94,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(184,155,94,0.05)_1px,transparent_1px)] bg-[size:48px_48px]"></div>
 
         <div className="relative text-center max-w-3xl mx-auto mb-20">
-          <p className="uppercase tracking-[6px] text-sm text-[#b89b5e] font-bold">
+          <p className="uppercase tracking-[6px] text-sm text-[#b89b5e] font-Cinzel font-bold">
             What We Offer
           </p>
 
-          <h2 className="text-4xl md:text-6xl font-kaushan font-bold mt-5 leading-tight">
+          <h2 className="text-4xl md:text-6xl font-kaushan font-Cinzel font-bold mt-5 leading-tight">
             Our Farm Experiences
           </h2>
 
-          <p className="text-gray-600 mt-6 text-lg leading-8 font-Poppins">
+          <p className="text-gray-600 mt-6 text-lg leading-8 font-Cinzel">
             Explore beautiful wedding moments, party setups, birthday memories,
             and peaceful family stays at Tyagi Farms.
           </p>
@@ -195,7 +195,7 @@ const Experiences = () => {
                   <div className="absolute inset-3 rounded-[2.4rem] bg-gradient-to-t from-black/45 via-black/5 to-transparent"></div>
 
                   <div className="absolute bottom-8 left-8 bg-white/80 backdrop-blur-md px-5 py-3 rounded-full border border-white/70 shadow-lg">
-                    <p className="text-sm font-bold text-[#8b6f35]">
+                    <p className="text-sm font-Cinzel font-bold text-[#8b6f35]">
                       {item.tag}
                     </p>
                   </div>
@@ -207,16 +207,16 @@ const Experiences = () => {
                   0{index + 1}
                 </span>
 
-                <h3 className="text-3xl md:text-5xl font-serif font-bold mt-5 leading-tight">
+                <h3 className="text-3xl md:text-5xl font-Cinzel font-bold mt-5 leading-tight">
                   {item.title}
                 </h3>
 
-                <p className="text-gray-600 mt-6 text-lg leading-8 max-w-xl">
+                <p className="text-gray-600 mt-6 text-lg font-Cinzel leading-8 max-w-xl">
                   {item.desc}
                 </p>
 
                 <div className="mt-8">
-                  <p className="uppercase tracking-[4px] text-xs text-[#8b6f35] font-bold mb-4">
+                  <p className="uppercase tracking-[4px] text-xs text-[#8b6f35] font-bold mb-4 font-Cinzel">
                     Moments From Our Farm
                   </p>
 
@@ -245,11 +245,11 @@ const Experiences = () => {
       {/* PHOTO WALL */}
       <section className="px-5 md:px-16 lg:px-24 py-24 bg-[#fffaf1]">
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <p className="uppercase tracking-[6px] text-sm text-[#b89b5e] font-bold">
+          <p className="uppercase tracking-[6px] text-sm text-[#b89b5e] font-bold font-Cinzel">
             Gallery Preview
           </p>
 
-          <h2 className="text-4xl md:text-6xl font-serif font-bold mt-5">
+          <h2 className="text-4xl md:text-6xl font-bold mt-5 font-Cinzel">
             Beautiful Moments At Tyagi Farms
           </h2>
         </div>
@@ -268,34 +268,7 @@ const Experiences = () => {
       </section>
 
       {/* FINAL VISUAL SECTION */}
-      <section className="px-5 md:px-16 lg:px-24 py-24 bg-white">
-        <div className="relative rounded-[3rem] overflow-hidden shadow-[0_30px_90px_rgba(0,0,0,0.25)]">
-          <img
-            src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600"
-            alt="Tyagi Farms Event"
-            className="h-[520px] w-full object-cover"
-          />
-
-          <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/35 to-transparent"></div>
-
-          <div className="absolute inset-0 flex items-center px-8 md:px-16">
-            <div className="max-w-2xl text-white">
-              <p className="uppercase tracking-[6px] text-sm text-[#d9b765] font-bold">
-                Tyagi Farms
-              </p>
-
-              <h2 className="text-3xl md:text-6xl font-serif font-bold mt-5 leading-tight">
-                A Place Where Every Moment Looks Beautiful
-              </h2>
-
-              <p className="text-gray-200 mt-6 text-lg leading-8">
-                Weddings, parties, birthdays, family stays and more — every
-                experience is designed to feel peaceful, premium and memorable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </div>
   );
 };

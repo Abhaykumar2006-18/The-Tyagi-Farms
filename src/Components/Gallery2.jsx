@@ -45,7 +45,7 @@ const Gallery2 = () => {
           }
         `}
       </style>
-
+    
       <div className="max-w-7xl mx-auto">
 
         {/* 🔥 CENTER HEADING */}
@@ -55,7 +55,7 @@ const Gallery2 = () => {
             Visual Experience
           </p>
 
-          <h2 className="text-4xl md:text-6xl font-bold text-[#1B1B1B] mt-4 leading-tight font-Cinzel">
+          <h2 className="text-4xl md:text-6xl font-Cinzel font-bold text-[#1B1B1B] mt-4 leading-tight font-Cinzel">
             Explore The Beauty <br />
             <span className="text-[#B08D57] font-Cinzel">Of Tyagi Farms</span>
           </h2>
@@ -65,6 +65,7 @@ const Gallery2 = () => {
           </p>
 
         </div>
+        
 
         {/* 🔥 GRID LAYOUT */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 ">
