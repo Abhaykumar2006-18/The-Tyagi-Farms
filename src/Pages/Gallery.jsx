@@ -54,15 +54,15 @@ const Gallery = () => {
       <div className="max-w-7xl mx-auto">
         
         <div className="text-center mb-12">
-          <motion.p initial={{x:200,opacity:0,skewX:20}} animate={{x:0,opacity:1,skewX:0}} transition={{duration:1, delay:1,type:"spring"}} className="text-[#B08D57] font-Cinzel uppercase tracking-[4px] text-sm md:text-2xl font-semibold">
+          <motion.p initial={{x:200,opacity:0,skewX:20}} animate={{x:0,opacity:1,skewX:0}} transition={{duration:0.5, delay:0.6,type:"spring"}} className="text-[#B08D57] font-Cinzel uppercase tracking-[4px] text-sm md:text-2xl font-semibold">
             Our Gallery
           </motion.p>
-          <motion.h2 initial={{x:-200,opacity:0,skewX:20}} animate={{x:0,opacity:1,skewX:0}} transition={{duration:1 , delay:2,type:"spring"}} className="text-4xl md:text-7xl font-Cinzel font-bold text-gray-900 mt-3">
+          <motion.h2 initial={{x:-200,opacity:0,skewX:20}} animate={{x:0,opacity:1,skewX:0}} transition={{duration:1 , delay:0.8,type:"spring"}} className="text-4xl md:text-7xl font-Cinzel font-bold text-gray-900 mt-3">
             Explore Tyagi Farms
           </motion.h2>
 
 
-          <motion.p initial={{opacity:0,rotateX:90,y:50}} animate={{opacity:1,rotateX:0,y:0}} transition={{duration:1,delay:2,type:"spring",stiffness:100}} className="text-gray-600 max-w-2xl mx-auto mt-4 font-Cinzel">
+          <motion.p initial={{opacity:0,rotateX:90,y:50}} animate={{opacity:1,rotateX:0,y:0}} transition={{duration:1,delay:1,type:"spring",stiffness:100}} className="text-gray-600 max-w-2xl mx-auto mt-4 font-Cinzel">
             Take a look at our beautiful farmhouse, celebration spaces, wedding setup,
             party hall, and peaceful natural surroundings.
           </motion.p>
@@ -73,7 +73,7 @@ const Gallery = () => {
     
 
 
-      <motion.section initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1 , delay:3 , ease:easeOut}}  className="px-5 md:px-16 lg:px-24 py-24 bg-white ">
+      <motion.section initial={{opacity:0}} animate={{opacity:1}} transition={{duration:1 , delay:1.5 , ease:easeOut}}  className="px-5 md:px-16 lg:px-24 py-24 bg-white ">
         <div className="relative rounded-[3rem] overflow-hidden shadow-[0_30px_90px_rgba(0,0,0,0.25)]">
           <img
             src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=1600"

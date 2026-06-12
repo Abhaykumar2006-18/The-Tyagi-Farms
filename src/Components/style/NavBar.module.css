@@ -75,8 +75,9 @@
   transform: scale(1.1);
 }
 .sideMenu{
-    background-color: black;
-    color: white;
+    background: #0f0f0f;
+    color: #ffffff;
+
     display: flex;
     flex-direction: column;
     height: 100vh;
