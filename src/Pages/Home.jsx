@@ -19,10 +19,9 @@ const Home = () => {
             <video src={v2} autoPlay loop muted playsInline className='h-full w-full top-0 left-0 object-cover absolute z-0 '></video>
               <div className='absolute inset-0 bg-black/25 z-10 pointer-events-none'></div>
     
-            <div className='relative z-50'>
-               <NavBar/>
-               
-            </div>  
+             <div className='relative z-50'>
+                 <NavBar/>  
+              </div> 
             
              <div className='absolute inset-0 flex items-center justify-center z-20 pointer-events-none'>
                    <div className='pointer-events-auto'>
